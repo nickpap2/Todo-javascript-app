@@ -1,0 +1,5 @@
+const date=new moment()
+date.year(1998)
+date.month(2)
+date.day(15)
+console.log(date.format('MMMM D , YYYY'))
